@@ -1,0 +1,43 @@
+.dialog {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: var(--spacing-3);
+  z-index: 1300;
+  margin: auto;
+  min-width: var(--dialog-min-width);
+  background-color: dimgrey;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(24px);
+}
+
+.iconButton {
+  appearance: none;
+  border: none;
+  margin: 0;
+  background: none;
+  padding: 0.25rem;
+  box-sizing: content-box;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  color: darkgrey;
+}
+
+.iconButton:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: text-shadow 125ms ease;
+}
+
+.closeButton {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}

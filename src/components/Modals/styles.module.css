@@ -1,0 +1,25 @@
+.form {
+  color: white;
+}
+
+.fieldset {
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.fieldset > legend {
+  float: left;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  gap: var(--spacing);
+}
+
+.submitButton {
+  margin: var(--spacing-2) 0 0 auto;
+}

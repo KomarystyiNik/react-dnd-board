@@ -1,0 +1,29 @@
+{
+  "name": "react-dnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "1.2.1",
+    "react": "18.2.0",
+    "react-dnd": "16.0.1",
+    "react-dnd-html5-backend": "16.0.1",
+    "react-dom": "18.2.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/uuid": "8.3.4",
+    "@vitejs/plugin-react": "2.1.0",
+    "typescript": "4.8.4",
+    "vite": "3.1.4"
+  }
+}

@@ -1,0 +1,19 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+
+  padding: var(--spacing-2);
+  background-color: aqua;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.columnDropArea {
+  width: 100%;
+  min-height: 100px;
+}
+
+.hidden {
+  display: none;
+}
